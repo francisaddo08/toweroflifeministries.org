@@ -1,0 +1,116 @@
+
+
+  <ngb-carousel [interval]="5000">
+    <ng-template ngbSlide setInterval hoverOnPause="true">
+      <img src="../assets/img/home1.png">
+    </ng-template>
+    <ng-template ngbSlide>
+      <img src='../assets/img/5.jpg'>
+      <div class="messages" id="msg1">
+     <p>  <b>WEEK OF LIVING IN AUTHORITY </b> <br> <span class="verses">Luke 10:19 </span> </p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img src='../assets/img/9.jpg'>
+      <div class="messages" id="msg2">
+        <p> OUR WORDS ARE AUTHORITIES<br> BECAUSE WE ARE AUTHORITIES <br><span class="verses"> MATTHEW 18:18 </span>
+        </p>
+      </div>
+    </ng-template>
+    <ng-template ngSlide>
+
+    </ng-template>
+
+  </ngb-carousel>
+
+  <!-- Welcome message from TLM-->
+  <article id="tlmmessage" class="card text-justify  jumbotron text-white bg-dark">
+
+    <h1 class="card-title text-center">TLM: WELLCOMES YOU!</h1>
+    <p id="wellcomemessage" class="card-text">
+      Tower Of Life Ministries (also known as "TLM")
+      is a modern day fire branded body of Christ that operates
+      with the deeper revelation of the spoken word of God and the power
+      of his might Holy Ghost. We are a bunch of called out people of purpose
+      who have been born and revived through life's experience into their divine
+      calling to fulfil the gospel purpose. We’re a multicultural mix of
+      people from various parts of the world. We have a view to expand
+      to continents of the world according to and by the grace of God.
+      We are uniquely ordained by God and are Christians that follows the
+      basics according to the deeper life of Christ Jesus build on his
+      foundational truth of holiness and righteousness.
+    </p>
+  </article>
+  <!-- SECTION FOR LINKS TO INPUT FORMS FOR PRAYER , NEWCOMER AND DONATIONS FORMS-->
+
+  <section id="formlinks" class="row ml-0 mr-0  text-center jumbotron">
+
+    <div class="col-12 col-lg-4 col-md-12 col-xl-4">
+      <div id="newcomer" class="bg-secondary animated bounce delay-2s ">
+        <a class="nav-link" [routerLink]="['/newcomer']" [routerLinkActive]="['active']"
+          (click)="$event.preventDefault()">
+          <div class="card ">
+            <h2 class="">
+              NEW COMER:<br> COMING TO THE<br> LORD
+            </h2>
+          </div>
+        </a>
+      </div>
+
+    </div>
+    <div class="col-12 col-lg-4 col-md-12 col-xl-4 ">
+      <div id="requestprayer" class="bg-secondary animated bounce delay-4s">
+        <a class="nav-link" [routerLink]="['/prayer']">
+          <div class="card" id="prayer">
+            <h2 class="homelinks">
+              REQUEST: <br> A PERSONAL<br> PRAYER
+            </h2>
+          </div>
+        </a>
+
+      </div>
+    </div>
+    <div  class=" col-12 col-lg-4 col-md-12 col-xl-4 ">
+      <div id="donation" class="bg-secondary animated bounce delay-6s ">
+        <a class="nav-link" [routerLink]="['/donations']">
+          <div class="card ">
+            <h2 class="homelinks">
+              GIVING:<br> MAKE A <br>DONATION
+            </h2>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
+
+
+  </section>
+  <!-- SECTION OF PASTOR PICTURE AND PERSONAL WELLCOME MESSAGE-->
+  <section>
+    <div class="card bg-dark">
+      <div class="row no-gutters">
+        <figure class="col-auto  col-sm-6 col-md-4 ">
+          <img src="..\assets\img\obi2.jpg" class="border-0" id="obiimage" alt="Pastor Peter Obi">
+        </figure>
+        <article class="col-auto  col-sm-6 col-md-8 ">
+          <div class="card-block">
+            <h4 class="card-title text-center mt-1 pt-1">
+              Pastor Patrick Obi
+            </h4>
+            <p class="card-text text-white pl-3 pr-3 pb-1 text-justify ">
+              It is my sincere privilege to welcome you to this great
+              and glorious family. I know that the LORD who has brought you here did
+              it with a specific purpose in mind. I am convinced that the purpose of
+              God concerning your life shall stand and your story will take a positive change.
+              May the Lord guide and guard you in this
+              Christian journey till we all meet in heaven to part no more, Amen
+            </p>
+          </div>
+        </article>
+      </div>
+
+    </div>
+
+  </section>
+

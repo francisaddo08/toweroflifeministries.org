@@ -1,0 +1,101 @@
+
+
+<section class="mb-3" id="donations" >
+
+    <header class="text-center ">
+        <h2 id="headingText">DONATIONS</h2>
+        <span id="subText" >Want to make a donation</span>
+    </header>
+    <div class=" mt-3">
+        <div class="card text-white bg-secondary">
+            <h2 class="card-header text-center">Fill &amp; Submit the Form and we will contact you</h2>
+            <div class="card-body">
+
+                <form [formGroup]="donationsForm" (ngSubmit)="addDonation()">
+                    <div class="form-group row ">
+                        <label for="firstName" class="col-from-lable col-12 col-sm-12 col-md-4 col-lg-2 col-xl-2">
+                            First Name
+                        </label>
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-10 col-xl-10">
+                            <input type="text" class="form-control" formControlName="firstName" required>
+
+                        </div>
+
+                    </div>
+
+                    <div class="form-group row ">
+                        <label for="lastName" class="col-from-lable col-12 col-sm-12 col-md-4 col-lg-2 col-xl-2">
+                            Last Name
+                        </label>
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-10 col-xl-10">
+                            <input type="text" class="form-control" formControlName="lastName">
+                        </div>
+                    </div>
+
+
+                    <div class="form-group row">
+                        <label for="number" class="col-from-lable col-12 col-sm-12 col-md-4 col-lg-2 col-xl-2">
+                            Number
+                        </label>
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-10 col-xl-10">
+                            <input type="tel" class="form-control" formControlName="number">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="email" class="col-from-lable col-12 col-sm-12 col-md-4 col-lg-2 col-xl-2">
+                            Email
+                        </label>
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-10 col-xl-10">
+                            <input type="email" name="email" class="form-control" formControlName="email" id="email"
+                                required>
+                         
+                        </div>
+
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="confirmEmail" class="col-from-lable col-12 col-sm-12 col-md-4 col-lg-2 col-xl-2">
+                            Confirm Email
+                        </label>
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-10 col-xl-10">
+                            <input type="email" name="confirmEmail" class="form-control" formControlName="confirmEmail"
+                                autocomplete="off" required>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group row">
+                        <label for="message" class="col-from-lable col-12 col-sm-12 col-md-4 col-lg-2 col-xl-2">
+                            message
+                        </label>
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-10 col-xl-10">
+                            <textarea class="form-control" rows="4" formControlName="message"></textarea>
+                        </div>
+                    </div>
+                    <!-- check box for prefered means of contact-->
+                    <span>Select best way to contact you</span>
+
+                    <div class="form-check-inline">
+
+                        <label class="form-check-label col-sm" for="phone">
+                            <input type="checkbox" class="form-check-input" id="phone" formControlName="byphone"
+                                value="phone" checked>phone
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="email">
+                            <input type="checkbox" class="form-check-input" id="email" formControlName="byemail"
+                                value="email">email
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+

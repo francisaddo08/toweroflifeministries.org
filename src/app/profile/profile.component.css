@@ -1,0 +1,29 @@
+#profileheader{
+    height: 15vh;
+    margin-top: 1px;
+    background-image: linear-gradient( #4B0082,  #000080	 );
+    color: 	#FFFFFF;
+}
+#heading{
+    font-size: 24px;
+    font-weight: 700
+}
+
+.aboutsubs{
+    font-size: 24px;
+    font-weight: 700
+}
+.subtext{
+    font-size: 18px;
+    font-weight: 400;
+}
+#mandatesub{
+    font-size: 14px;
+    margin-block: 3px;
+    color: #FFD700;
+    
+}
+.card{
+    border: none;
+}
+

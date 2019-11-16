@@ -1,0 +1,79 @@
+
+
+img{
+    width: 100%;
+    height: 300px;
+}
+.carousel-control-prev:hover{
+    background: rgba(0, 0, 0, 0.7);
+}
+.carousel-control-next:hover{
+    background: rgba(0, 0, 0, 0.7);
+}
+
+  
+ 
+ .messages{
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+ }
+ #msg1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: 700;
+     color: blanchedalmond;
+ }
+ #msg2{
+     font-weight: 700;
+     font-style: italic;
+    font-size: 24px;
+    font-weight: 700;  
+    color: navy;
+ }
+ .verses{
+     color: 	hsl(0, 0%, 0%)
+ }
+ 
+ .hometitle{
+     font-size: 24px;
+     font-weight: bolder;
+     color: hsl(0, 0%, 0%)
+
+ }
+ #homewellcome{
+    background-color: 	hsl(0, 0%, 0%);
+    margin-top: 0px;
+   
+ }
+ .card-title{
+     
+     font-size: 36px;
+     font-weight: 700;
+     color: #FFEBCD;
+ }
+ .card-text{
+     font-size: 20px;
+ }
+ #homelinks{
+     color: black
+ }
+ #requestprayer a{
+     color: #a86c29;
+ }
+
+#newcomer a{
+    color: #a86c29
+}
+#donation a{
+    color: #a86c29;
+    font-weight: bold;
+ 
+    
+}
+#obiimage{
+  width: 300px;
+}

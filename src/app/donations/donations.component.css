@@ -1,0 +1,9 @@
+#donations header{
+    height: 15vh;
+    margin-top: 1px;
+    background-image: linear-gradient( #4B0082,  #000080	 );
+    color: 	#FFFFFF;
+}
+#donations #subText{
+    color: #FFD700;
+}

@@ -1,0 +1,20 @@
+#prayerheader{
+    height: 15vh;
+    margin-top: 1px;
+    background-image: linear-gradient( #4B0082,  #000080	 );
+    color: 	#FFFFFF;
+}
+#prayersub{
+    color: #FFD700;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    .card{
+      width: 100% ;
+    }
+  }

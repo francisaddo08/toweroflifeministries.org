@@ -1,0 +1,24 @@
+{
+    "newcomer": [{
+        "firstName": "francis",
+        " lastName": "addo",
+        "number": 745852625,
+        "email": "francis@gmail.com",
+        " confirmEmail": "francis@gmail.com",
+        " message": " i want to join your church",
+        "byphone": "true",
+        " byemail": " "
+    },
+    {
+        "firstName": "joy",
+        " lastName": "ambruce",
+        "number": 7452568425,
+        "email": "j@gmail.com",
+        " confirmEmail": "j@gmail.com",
+        " message": " i want to join your church on monaday",
+        "byphone": "",
+        " byemail": "true "
+    }
+
+    ] 
+}

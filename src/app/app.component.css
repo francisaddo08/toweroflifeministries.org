@@ -1,0 +1,113 @@
+
+
+
+
+
+#banner{
+    height: 12vh;
+    margin-bottom: 1px;
+    letter-spacing: 2px;
+    font-stretch: ultra-expanded;
+
+    background-image: radial-gradient( #000080	 , #4B0082)
+}
+
+ #banner img{
+     margin-top: 2px;
+    height: 10vh;
+    width: 10vw
+}
+.name{
+  
+    color: #FFD700;
+    font-weight: bolder
+}
+#motto{
+   
+    color: #fff;
+    font-family: sans-serif arial;
+    font-weight: bolder;
+   
+    
+}
+.motto li {
+    display: inline;
+    opacity: 1;
+    transition: all 2.5s ease;
+}
+.motto.hidden{
+    opacity: 0;
+}
+
+
+.motto.hidden li:nth-child(1){ transform: translateX(-200) translateY(-180px);}
+.motto.hidden li:nth-child(2){ transform: translateX(-20) translateY(-200px);}
+.motto.hidden li:nth-child(3){ transform: translateX(-200) translateY(-20px);}
+.motto.hidden li:nth-child(4){ transform: translateX(-200) translateY(-200px);}
+.motto.hidden li:nth-child(5){ transform: translateX(-150) translateY(-200px);}
+
+
+/*      NAVBAR*/
+#aboutus{
+    cursor: pointer;
+}
+#contactus{
+    cursor: pointer;
+}
+.fa {
+    padding: 0px;
+    font-size: 28px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+
+@media only screen and (max-width: 600px) {
+   /* .container-fluid{
+        margin: 0% important;
+        width: 100%;
+    }
+    .navbar{
+        width: 100%
+    }
+    nav{
+        width: 100%
+  } */
+
+ 
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+      /*  section{
+        margin-right: 50px;
+        margin-left: 50px
+    }
+   .navbar{
+       margin-right: -15px;
+       margin-left:  -15px
+   }
+*/
+    }
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -1,0 +1,16 @@
+footer{
+   
+    height: 100px;
+
+}
+#directions{
+    background-image:  radial-gradient(#800080, navy ); 
+    color: white
+
+}
+a{
+    color: white
+}
+#generalinfor{
+    height: 10vh;
+}
